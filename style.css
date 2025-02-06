@@ -10,3 +10,44 @@ p {
   margin: 0;
   padding: 0;
 }
+/* Centriranje sadržaja */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+/* Vanjska ljubičasta kutija */
+.outer-box {
+  background-color: purple;
+  padding: 25px;
+  width: 95%; 
+}
+
+/* Unutarnje plave kutije */
+.inner-box {
+  background-color: blue;
+  padding: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  
+}
+
+/* Žuti tekst */
+h2 {
+  color: yellow;
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+/* Crvena kutija sa bijelim tekstom */
+.content-box {
+  background-color: red;
+  color: white;
+  padding: 30px;
+  font-size: 50px;
+  
+}
